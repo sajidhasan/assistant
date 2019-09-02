@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="container">
+        <div class="col-md-12">
+            <h1>Assistant app build with ReactJS!</h1>
+            <ol>
+              <ol><i className="fas fa-check-circle"></i> Bootstrap 4</ol>
+              <ol><i className="fas fa-check-circle"></i> Font-awesome</ol>
+              <ol><i className="fas fa-check-circle"></i> ReactJS</ol>
+            </ol>
+            <h1><i class="fas fa-cogs"></i> Under construction!</h1>
+
+            <h1><a href="https://github.com/sajidhasan/assistant.git"><i class="fab fa-github-alt"></i> Github Repository</a></h1>
+        </div>
+      </div>
     </div>
   );
 }
